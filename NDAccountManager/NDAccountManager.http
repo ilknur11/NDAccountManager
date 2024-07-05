@@ -1,0 +1,6 @@
+@NDAccountManager_HostAddress = http://localhost:5056
+
+GET {{NDAccountManager_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
