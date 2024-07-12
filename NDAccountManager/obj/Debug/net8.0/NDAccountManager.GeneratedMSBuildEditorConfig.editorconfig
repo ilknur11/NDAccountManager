@@ -25,3 +25,23 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\ASUS\Desktop\NDAccountManager\NDAccountManager
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ASUS/Desktop/NDAccountManager/NDAccountManager/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/NDAccountManager/NDAccountManager/Components/Tab.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/NDAccountManager/NDAccountManager/Components/TabPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUYWJQYW5lbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/NDAccountManager/NDAccountManager/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/NDAccountManager/NDAccountManager/Pages/Main.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 

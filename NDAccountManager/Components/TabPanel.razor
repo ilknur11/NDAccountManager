@@ -1,0 +1,37 @@
+﻿@namespace NDAccountManager.Components
+
+<div class="tab-panel">
+    @foreach (var tab in TabList)
+    {
+        <div @onclick="() => SelectTab(TabList.IndexOf(tab))" class="tab @(TabList.IndexOf(tab) == _selectedTabIndex ? "active" : "")">
+            @tab.Title
+        </div>
+    }
+
+    <div class="tab-content">
+        @TabList[_selectedTabIndex].ChildContent
+    </div>
+</div>
+
+@code {
+    private int _selectedTabIndex;
+    private List<Tab> TabList = new List<Tab>();
+
+    protected override void OnInitialized()
+    {
+        TabList.Clear();
+    }
+
+    public void SelectTab(int index)
+    {
+        _selectedTabIndex = index;
+    }
+
+    public void AddTab(Tab tab)
+    {
+        TabList.Add(tab);
+    }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

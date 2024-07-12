@@ -12,8 +12,9 @@ using NDAccountManager.Data;
 namespace NDAccountManager.Controllers
 {
     [Authorize]
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    
 
     
    

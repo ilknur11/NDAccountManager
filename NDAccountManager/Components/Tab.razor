@@ -1,0 +1,17 @@
+﻿@namespace NDAccountManager.Components
+
+@code {
+    [CascadingParameter]
+    private TabPanel Parent { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Parent.AddTab(this);
+    }
+}

@@ -1,0 +1,14 @@
+﻿@page "/login"
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.AzureAD.UI
+@inject NavigationManager Navigation
+
+<h3>Login</h3>
+<button @onclick="LoginUser">Login with Azure AD</button>
+
+@code {
+    private void LoginUser()
+    {
+        Navigation.NavigateTo("AzureAD/Account/SignIn", true);
+    }
+}
